@@ -2,7 +2,8 @@
 
 A modern, simple antivirus GUI for Linux, powered by [ClamAV](https://www.clamav.net/). Built with Qt6/PySide6.
 
-![Plasma Guard icon](assets/icon-256.png)
+<img width="512" height="512" alt="icon" src="https://github.com/user-attachments/assets/125faef0-4ea1-4873-b8ce-892e4a47506e" />
+
 
 ---
 
