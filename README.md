@@ -48,7 +48,7 @@ A modern, simple antivirus GUI for Linux, powered by [ClamAV](https://www.clamav
 ## Install
 
 ```bash
-git clone https://github.com/YOUR_USER/plasma-guard.git
+git clone https://github.com/Vojislav77/plasma-guard.git
 cd plasma-guard
 bash packaging/install.sh
 ```
