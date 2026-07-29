@@ -1,0 +1,11 @@
+[Unit]
+Description=PlasmaGuard scheduled scan timer
+
+[Timer]
+# Run every day at 03:00. Change in the Settings page.
+OnCalendar=*-*-* 03:00:00
+Persistent=true
+Unit=plasma-guard-scan.service
+
+[Install]
+WantedBy=timers.target

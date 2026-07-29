@@ -1,0 +1,38 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "plasma-guard"
+version = "2.0.0"
+description = "Modern ClamAV-powered antivirus frontend for Linux"
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "MIT" }
+authors = [{ name = "PlasmaGuard" }]
+dependencies = [
+    "PySide6>=6.6,<7",
+]
+
+[project.scripts]
+plasma-guard = "plasma_guard.app:main"
+
+[tool.setuptools]
+packages = ["plasma_guard", "plasma_guard.ui"]
+include-package-data = true
+
+[tool.setuptools.package-data]
+plasma_guard = ["../assets/*"]
+"plasma_guard.ui" = []
+
+[tool.setuptools.data-files]
+"share/applications" = ["packaging/plasma-guard.desktop"]
+"share/icons/hicolor/scalable/apps" = ["assets/icon.svg"]
+"share/icons/hicolor/16x16/apps" = ["assets/icon-16.png"]
+"share/icons/hicolor/22x22/apps" = ["assets/icon-22.png"]
+"share/icons/hicolor/32x32/apps" = ["assets/icon-32.png"]
+"share/icons/hicolor/48x48/apps" = ["assets/icon-48.png"]
+"share/icons/hicolor/64x64/apps" = ["assets/icon-64.png"]
+"share/icons/hicolor/128x128/apps" = ["assets/icon-128.png"]
+"share/icons/hicolor/256x256/apps" = ["assets/icon-256.png"]
+"share/icons/hicolor/512x512/apps" = ["assets/icon-512.png"]

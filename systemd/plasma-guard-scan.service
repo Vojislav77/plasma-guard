@@ -1,0 +1,7 @@
+[Unit]
+Description=PlasmaGuard scheduled scan
+
+[Service]
+Type=oneshot
+ExecStart=/usr/bin/python3 -m plasma_guard --scheduled-scan
+WorkingDirectory=%h

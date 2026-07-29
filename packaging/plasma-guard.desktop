@@ -1,0 +1,13 @@
+[Desktop Entry]
+Type=Application
+Version=1.0
+Name=Plasma Guard
+GenericName=Antivirus
+Comment=Modern ClamAV-powered antivirus for Linux
+Exec=plasma-guard
+Icon=@ICON_PATH@
+Terminal=false
+Categories=System;Security;Utility;
+StartupNotify=true
+StartupWMClass=PlasmaGuard
+Keywords=antivirus;clamav;security;scan;virus;
