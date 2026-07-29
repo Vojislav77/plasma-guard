@@ -2,7 +2,8 @@
 
 A modern, simple antivirus GUI for Linux, powered by [ClamAV](https://www.clamav.net/). Built with Qt6/PySide6.
 
-<img width="512" height="512" alt="icon" src="https://github.com/user-attachments/assets/125faef0-4ea1-4873-b8ce-892e4a47506e" />
+
+<img width="1345" height="1015" alt="pg1" src="https://github.com/user-attachments/assets/fccf8abf-8ede-4692-8cb4-67c8afa1ce46" />
 
 
 ---
